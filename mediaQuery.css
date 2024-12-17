@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 1200px) {
     #desktop-nav{
+        /* Fix - from none to flex !*/
         display: none;
     }
     #hamburger-nav{
@@ -78,6 +79,15 @@
         gap: 0.5rem;
         text-align: center;
     }
+    /*  
+    .menu-links{
+        position: absolute; 
+        top: 100%; 
+        right: 0; 
+        background-color: white;
+        width: 100%; 
+    }
+    */ 
     .section__pic-container{
         width: auto;
         height: 46vw;
