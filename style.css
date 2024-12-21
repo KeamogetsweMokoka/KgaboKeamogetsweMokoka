@@ -8,9 +8,6 @@
 }
 
 body{
-    /*  
-    padding-top: 17vh; 
-    */
     font-family: "Poppins", sans-serif;
 }
 
@@ -36,16 +33,7 @@ nav,
     display: flex;
 }
 
-nav { 
-    /* adding fixed nav bar */ 
-    /*
-    position: fixed; 
-    top: 0;
-    left: 0; 
-    width: 100%; 
-    background-color: white;
-    z-index: 1000;
-    */  
+nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
@@ -225,6 +213,11 @@ img{
 .icon{
     cursor: pointer;
     height: 2rem;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+#socials-container img:hover{
+    transform: scale(1.5); /* Slightly enlarges on hover */
 }
 
 /* Buttons */
